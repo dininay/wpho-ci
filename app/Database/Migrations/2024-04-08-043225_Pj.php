@@ -29,9 +29,12 @@ class Pj extends Migration
                 'constraint' => 100,
                 'null' => true,
             ],
-            'divisi' => [
-                'type' => 'VARCHAR',
-                'constraint' => 100,
+            'created_at' => [
+                'type' => 'DATETIME',
+                'null' => true,
+            ],
+            'updated_at' => [
+                'type' => 'DATETIME',
                 'null' => true,
             ],
         ]);

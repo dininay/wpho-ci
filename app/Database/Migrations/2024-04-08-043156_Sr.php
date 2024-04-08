@@ -28,6 +28,14 @@ class Sr extends Migration
                 'constraint' => 255,
                 'null' => true,
             ],
+            'created_at' => [
+                'type' => 'DATETIME',
+                'null' => true,
+            ],
+            'updated_at' => [
+                'type' => 'DATETIME',
+                'null' => true,
+            ],
         ]);
         $this->forge->addPrimaryKey('id');
         $this->forge->createTable('sr');
