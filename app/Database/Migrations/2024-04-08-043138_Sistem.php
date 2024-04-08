@@ -50,4 +50,4 @@ class Sistem extends Migration
         $this->forge->dropTable('sistem');
     }
 }
-}
+

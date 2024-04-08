@@ -37,3 +37,4 @@ class Sr extends Migration
     {
         $this->forge->dropTable('sr');
     }   
+}
